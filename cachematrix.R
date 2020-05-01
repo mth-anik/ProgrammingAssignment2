@@ -1,5 +1,5 @@
 
-## this function makes a list consists of getter and setter function 
+## this function makes a list consists of getter and setter functions 
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL                                  # sets m equal to null
