@@ -8,8 +8,8 @@ makeCacheMatrix <- function(x = matrix()) {
     m <<- NULL
   }
   get <- function() x                        # defines get function
-  setsolve <- function(solve) m <<- solve    # defines setsolve function  
-  getsolve <- function() m                   # defines getsolve function
+  setsolve <- function(solve) m <<- solve    # defines setsolve function which assigns the solve in the cache
+  getsolve <- function() m                   # defines getsolve function which accesses the solve from the cache
   list(set = set, get = get,                 # lists all the function defined
        setsolve = setsolve,
        getsolve = getsolve)
